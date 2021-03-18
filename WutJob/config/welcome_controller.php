@@ -10,7 +10,7 @@ VOUS ETES LIBRE DE TOUTE UTILISATION.
 ===================================================*/
 function welcome_params(){
     return array(
-                'welcome_controller' => 'WelcomesController'
+                'welcome_controller' => 'WelcomeController'
                 );
 }
 ?>

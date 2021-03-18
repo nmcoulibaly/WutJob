@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2021-03-18 04:52:28
+  from "C:\xampp2\htdocs\php\WutJob\WutJob\src\view\welcome\test.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_6052ce7c02b258_48039268',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '48baac7cd8ad98d6ab9302338b5669a55556cf5f' => 
+    array (
+      0 => 'C:\\xampp2\\htdocs\\php\\WutJob\\WutJob\\src\\view\\welcome\\test.html',
+      1 => 1616039537,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_6052ce7c02b258_48039268 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,11 +33,16 @@
   <title>Day - HTML Bootstrap Template</title>
 
   <!-- Bootstrap -->
-  <link href="{$url_base}public/Day/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{$url_base}public/Day/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{$url_base}public/Day/css/animate.css">
-  <link href="{$url_base}public/Day/css/animate.min.css" rel="stylesheet">
-  <link href="{$url_base}public/Day/css/style.css" rel="stylesheet" />
+  <link href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/css/animate.css">
+  <link href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/css/animate.min.css" rel="stylesheet">
+  <link href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/css/style.css" rel="stylesheet" />
   <!-- =======================================================
     Theme Name: Day
     Theme URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
@@ -34,17 +63,23 @@
                         <span class="icon-bar"></span>
                     </button>
           <div class="navbar-brand">
-            <a href="{$url_base}public/Day/index.html"><h1>WutJob</h1></a>
+            <a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/index.html"><h1>WutJob</h1></a>
           </div>
         </div>
         <div class="navbar-collapse collapse">
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation"><a href="{$url_base}public/Day/index.html" class="active">Home</a></li>
-              <li role="presentation"><a href="{$url_base}public/Day/about.html">About Us</a></li>
-              <li role="presentation"><a href="{$url_base}public/Day/services.html">Services</a></li>
-              <li role="presentation"><a href="{$url_base}public/Day/gallery.html">Gallery</a></li>
-              <li role="presentation"><a href="{$url_base}public/Day/contact.html">Contact</a></li>
+              <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/index.html" class="active">Home</a></li>
+              <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/about.html">About Us</a></li>
+              <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/services.html">Services</a></li>
+              <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/gallery.html">Gallery</a></li>
+              <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -67,7 +102,8 @@
 
         <div class="carousel-inner">
           <div class="item active">
-            <img src="{$url_base}public/Day/img/slide.jpg" class="img-responsive" alt="">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
                 <h2><span>Trouver le travail qui vous conviez</span></h2>
@@ -91,7 +127,8 @@
           </div>
 
           <div class="item">
-            <img src="{$url_base}public/Day/img/slide.jpg" class="img-responsive" alt="">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
                 <h2>Fully Responsive</h2>
@@ -114,7 +151,8 @@
             </div>
           </div>
           <div class="item">
-            <img src="{$url_base}public/Day/img/slide.jpg" class="img-responsive" alt="">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
                 <h2>Modern Design</h2>
@@ -220,7 +258,8 @@
     <div class="container">
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="{$url_base}public/Day/img/8.jpg" alt="" class="img-responsive" />
+          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/8.jpg" alt="" class="img-responsive" />
           <figcaption>
             <h4>sweet marley</h4>
             <p>Marley tried to convince her but she was not interested.</p>
@@ -229,7 +268,8 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="{$url_base}public/Day/img/9.jpg" alt="" class="img-responsive" />
+          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/9.jpg" alt="" class="img-responsive" />
           <figcaption>
             <h4>sweet marley</h4>
             <p>Marley tried to convince her but she was not interested.</p>
@@ -238,7 +278,8 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="{$url_base}public/Day/img/10.jpg" alt="" class="img-responsive" />
+          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/10.jpg" alt="" class="img-responsive" />
           <figcaption>
             <h4>sweet marley</h4>
             <p>Marley tried to convince her but she was not interested.</p>
@@ -250,7 +291,8 @@
     <div class="container">
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="{$url_base}public/Day/img/11.jpg" alt="" class="img-responsive" />
+          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/11.jpg" alt="" class="img-responsive" />
           <figcaption>
             <h4>sweet marley</h4>
             <p>Marley tried to convince her but she was not interested.</p>
@@ -259,7 +301,8 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="{$url_base}public/Day/img/12.jpg" alt="" class="img-responsive" />
+          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/12.jpg" alt="" class="img-responsive" />
           <figcaption>
             <h4>sweet marley</h4>
             <p>Marley tried to convince her but she was not interested.</p>
@@ -268,7 +311,8 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="{$url_base}public/Day/img/13.jpg" alt="" class="img-responsive" />
+          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/13.jpg" alt="" class="img-responsive" />
           <figcaption>
             <h4>sweet marley</h4>
             <p>Marley tried to convince her but she was not interested.</p>
@@ -296,12 +340,18 @@
         <div class="text-center">
           <h4>Photo Gallery</h4>
           <ul class="sidebar-gallery">
-            <li><a href="#"><img src="{$url_base}public/Day/img/gallery1.png" alt="" /></a></li>
-            <li><a href="#"><img src="{$url_base}public/Day/img/gallery2.png" alt="" /></a></li>
-            <li><a href="#"><img src="{$url_base}public/Day/img/gallery3.png" alt="" /></a></li>
-            <li><a href="#"><img src="{$url_base}public/Day/img/gallery4.png" alt="" /></a></li>
-            <li><a href="#"><img src="{$url_base}public/Day/img/gallery5.png" alt="" /></a></li>
-            <li><a href="#"><img src="{$url_base}public/Day/img/gallery6.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/gallery1.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/gallery2.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/gallery3.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/gallery4.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/gallery5.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/img/gallery6.png" alt="" /></a></li>
           </ul>
         </div>
       </div>
@@ -355,14 +405,30 @@
   </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="{$url_base}public/Day/js/jquery.min.js"></script>
-  <script src="{$url_base}public/Day/js/jquery-migrate.min.js"></script>
+  <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/js/jquery.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/js/jquery-migrate.min.js"><?php echo '</script'; ?>
+>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="{$url_base}public/Day/js/bootstrap.min.js"></script>
-  <script src="{$url_base}public/Day/js/wow.min.js"></script>
-  <script>
+  <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/js/wow.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+>
     wow = new WOW({}).init();
-  </script>
+  <?php echo '</script'; ?>
+>
 </body>
 
 </html>
+<?php }
+}

@@ -19,5 +19,13 @@ class WelcomeController extends Controller{
     public function index(){  
         return $this->view->load("welcome/index");   
     }  
+
+    public function Login(){  
+        return $this->view->load("welcome/Login");   
+    }  
+
+    public function Inscription(){  
+        return $this->view->load("welcome/Inscription");   
+    }  
 }
 ?>
