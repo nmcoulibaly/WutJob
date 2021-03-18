@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2021-03-18 05:22:38
+/* Smarty version 3.1.30, created on 2021-03-18 05:28:28
   from "C:\xampp2\htdocs\php\WutJob\WutJob\src\view\welcome\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6052d58e641f25_27190393',
+  'unifunc' => 'content_6052d6ec1b0c95_25514255',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c9f8960491609f0adaf0dcc6b5e2a0534eb4d43' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\php\\WutJob\\WutJob\\src\\view\\welcome\\index.html',
-      1 => 1616041331,
+      1 => 1616041635,
       2 => 'file',
     ),
   ),
@@ -20,17 +20,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6052d58e641f25_27190393 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6052d6ec1b0c95_25514255 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Day - HTML Bootstrap Template</title>
+  <title>WutJob</title>
 
   <!-- Bootstrap -->
   <link href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
