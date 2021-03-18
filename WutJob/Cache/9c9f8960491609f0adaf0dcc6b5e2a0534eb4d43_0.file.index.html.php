@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2021-03-18 04:55:09
+/* Smarty version 3.1.30, created on 2021-03-18 05:22:38
   from "C:\xampp2\htdocs\php\WutJob\WutJob\src\view\welcome\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6052cf1d083bc0_80177662',
+  'unifunc' => 'content_6052d58e641f25_27190393',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c9f8960491609f0adaf0dcc6b5e2a0534eb4d43' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\php\\WutJob\\WutJob\\src\\view\\welcome\\index.html',
-      1 => 1616039590,
+      1 => 1616041331,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6052cf1d083bc0_80177662 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6052d58e641f25_27190393 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,14 +64,14 @@ public/Day/css/style.css" rel="stylesheet" />
                     </button>
           <div class="navbar-brand">
             <a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/index.html"><h1>WutJob</h1></a>
+welcome/index"><h1>WutJob</h1></a>
           </div>
         </div>
         <div class="navbar-collapse collapse">
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/index.html" class="active">Home</a></li>
+welcome/index" class="active">Home</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/about.html">About Us</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
