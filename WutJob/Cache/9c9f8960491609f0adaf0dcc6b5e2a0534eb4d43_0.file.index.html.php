@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2021-03-18 05:28:28
+/* Smarty version 3.1.30, created on 2021-03-19 01:05:50
   from "C:\xampp2\htdocs\php\WutJob\WutJob\src\view\welcome\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6052d6ec1b0c95_25514255',
+  'unifunc' => 'content_6053eade0e06d9_55083032',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c9f8960491609f0adaf0dcc6b5e2a0534eb4d43' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\php\\WutJob\\WutJob\\src\\view\\welcome\\index.html',
-      1 => 1616041635,
+      1 => 1616112318,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6052d6ec1b0c95_25514255 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6053eade0e06d9_55083032 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -71,15 +71,15 @@ welcome/index"><h1>WutJob</h1></a>
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-welcome/index" class="active">Home</a></li>
+welcome/index" class="active">Accueil</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/about.html">About Us</a></li>
+public/Day/about.html">Offres</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/services.html">Services</a></li>
+public/Day/services.html">Presentation</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/gallery.html">Gallery</a></li>
+public/Day/gallery.html">CV</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/contact.html">Contact</a></li>
+public/Day/contact.html">Se Connecter</a></li>
             </ul>
           </div>
         </div>
@@ -106,20 +106,20 @@ public/Day/contact.html">Contact</a></li>
 public/Day/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                <h2><span>Trouver le travail qui vous conviez</span></h2>
+                <h2><span>Offres d'emploi au Sénégal</span></h2>
               </div>
               <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                  <p>Daneu sa boula nekh</p>
+                  <p>DANEU SA DOOLE</p>
                 </div>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
                 <form class="form-inline">
                   <div class="form-group">
-                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">LIGUEYE REK</button>
                   </div>
                   <div class="form-group">
-                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">MO WOORE</button>
                   </div>
                 </form>
               </div>
@@ -131,20 +131,20 @@ public/Day/img/slide.jpg" class="img-responsive" alt="">
 public/Day/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
-                <h2>Fully Responsive</h2>
+                <h2>LIGUEYE MO WOORE</h2>
               </div>
               <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                  <p>DANEU SA DOOLE</p>
                 </div>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
                 <form class="form-inline">
                   <div class="form-group">
-                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">NIACK </button>
                   </div>
                   <div class="form-group">
-                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">DIARIGNOU</button>
                   </div>
                 </form>
               </div>
@@ -155,20 +155,20 @@ public/Day/img/slide.jpg" class="img-responsive" alt="">
 public/Day/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                <h2>Modern Design</h2>
+                <h2>NIACK DIARIGNOU</h2>
               </div>
               <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                  <p>DANEU SA DOOLE</p>
                 </div>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
                 <form class="form-inline">
                   <div class="form-group">
-                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">KOU MOUGNE</button>
                   </div>
                   <div class="form-group">
-                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">DIGUA MOUGNE</button>
                   </div>
                 </form>
               </div>
@@ -190,69 +190,42 @@ public/Day/img/slide.jpg" class="img-responsive" alt="">
   </div>
   <!--/#slider-->
 
-  <div class="about">
-    <div class="container">
-      <div class="text-center">
-        <h2>Quaerat quod voluptate consequuntur </h2>
-        <div class="col-md-10 col-md-offset-1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod voluptate consequuntur ad quasi, dolores obcaecati ex aliquid, dolor provident accusamus omnis dolorum ipsam. Voluptatem ipsum expedita, corporis facilis laborum asperiores
-            nostrum! Amet porro numquam ratione temporibus quia dolorem sint lorem voluptates quasi mollitia.</p>
-        </div>
-
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="btn-gamp"><a href="#">Learn More</a></div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="gamp-btn"><a href="#">download</a></div>
-        </div>
-
-      </div>
-    </div>
-  </div>
+ 
   <hr>
 
   <div class="services">
     <div class="container">
       <div class="text-center">
-        <h2>consectetur adipisicing elit</h2>
+        <h2>Offres premium</h2>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <i class="fa fa-heart-o"></i>
-        <h3>Fully Responsive</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+       <i class="fa fa-trophy"></i>
+        <h3>Communications Manager</h3>
+        <p>Construire et entretenir des relations interpersonnelles et d'équipe pour assurer
+           un environnement de travail stable et l'atteinte des objectifs de l'équipe</p>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-        <i class="fa fa-cloud"></i>
-        <h3>Retina Ready</h3>
+        <i class="fa fa-trophy"></i>
+        <h3>Head of finance </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-        <i class="fa fa-book"></i>
-        <h3>Fresh and Clean</h3>
+        <i class="fa fa-trophy"></i>
+        <h3>Administrateur Bases de donnees</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-        <i class="fa fa-gear"></i>
-        <h3>Easy to Customize</h3>
+        <i class="fa fa-trophy"></i>
+        <h3>Architecte de donnees</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
       </div>
     </div>
   </div>
 
-  <section class="action">
-    <div class="container">
-      <div class="left-text hidden-xs">
-        <h4>Amet porro numquam ratione</h4>
-        <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ut explicabo magni sapiente.</em><br><br>Inventore at quia, vel in repellendus, cumque dolorem autem ad quidem mollitia porro blanditiis atque rerum debitis eveniet nostrum aliquam.
-          Sint aperiam expedita sapiente amet officia quis perspiciatis adipisci, iure dolorem esse exercitationem!</p>
-      </div>
-      <div class="right-image hidden-xs"></div>
-    </div>
-  </section>
 
   <div class="gallery">
     <div class="text-center">
-      <h2>Gallery</h2>
+      <h2>actualités</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod voluptate consequuntur ad quasi, dolores obcaecati ex aliquid, dolor provident </p>
     </div>
     <div class="container">
@@ -261,7 +234,7 @@ public/Day/img/slide.jpg" class="img-responsive" alt="">
           <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/img/8.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>sweet marley</h4>
+            <h4>Comment recruter à distance</h4>
             <p>Marley tried to convince her but she was not interested.</p>
           </figcaption>
         </figure>
@@ -271,7 +244,7 @@ public/Day/img/8.jpg" alt="" class="img-responsive" />
           <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/img/9.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>sweet marley</h4>
+            <h4>Reussir son entretien à distance </h4>
             <p>Marley tried to convince her but she was not interested.</p>
           </figcaption>
         </figure>
@@ -281,7 +254,7 @@ public/Day/img/9.jpg" alt="" class="img-responsive" />
           <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/img/10.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>sweet marley</h4>
+            <h4>Accueillir de nouveaux employes à distance</h4>
             <p>Marley tried to convince her but she was not interested.</p>
           </figcaption>
         </figure>
@@ -294,7 +267,7 @@ public/Day/img/10.jpg" alt="" class="img-responsive" />
           <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/img/11.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>sweet marley</h4>
+            <h4>Vous cherchez un poste temporaire,contractuel ou interimaire? </h4>
             <p>Marley tried to convince her but she was not interested.</p>
           </figcaption>
         </figure>
@@ -304,7 +277,7 @@ public/Day/img/11.jpg" alt="" class="img-responsive" />
           <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/img/12.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>sweet marley</h4>
+            <h4>Vous recrutez? WutJob vous accompagne</h4>
             <p>Marley tried to convince her but she was not interested.</p>
           </figcaption>
         </figure>
@@ -314,7 +287,7 @@ public/Day/img/12.jpg" alt="" class="img-responsive" />
           <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/Day/img/13.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>sweet marley</h4>
+            <h4>Services de recrutement</h4>
             <p>Marley tried to convince her but she was not interested.</p>
           </figcaption>
         </figure>
@@ -325,13 +298,13 @@ public/Day/img/13.jpg" alt="" class="img-responsive" />
   <footer>
     <div class="container">
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <h4>About Us</h4>
-        <p>Day is tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters.</p>
+        <h4>WutJob</h4>
+        <p>Guéne ame ligueye mognou sokhal</p>
         <div class="contact-info">
           <ul>
-            <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
-            <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
-            <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
+            <li><i class="fa fa-home fa"></i>Liberté 6 extension, Dakar, Sénégal</li>
+            <li><i class="fa fa-phone fa"></i> +33 8253030</li>
+            <li><i class="fa fa-envelope fa"></i> WutJob@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -397,7 +370,8 @@ public/Day/img/gallery6.png" alt="" /></a></li>
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Day
             -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+public/Day/https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </div>
@@ -429,6 +403,5 @@ public/Day/js/wow.min.js"><?php echo '</script'; ?>
 >
 </body>
 
-</html>
-<?php }
+</html><?php }
 }
