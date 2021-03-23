@@ -8,6 +8,7 @@ POUR TOUTE MODIFICATION VISANT A L'AMELIORER.
 VOUS ETES LIBRE DE TOUTE UTILISATION.
 ===================================================*/
 use libs\system\Controller;
+use src\model\CvRepository;
 class WelcomeController extends Controller{
 
     public function __construct(){
@@ -27,5 +28,15 @@ class WelcomeController extends Controller{
     public function Inscription(){  
         return $this->view->load("welcome/Inscription");   
     }  
-}
+
+
+    public function offres(){  
+        return $this->view->load("welcome/offres");   
+    }  
+
+    public function presentation(){  
+        return $this->view->load("welcome/presentation");   
+    }  
+
+} 
 ?>

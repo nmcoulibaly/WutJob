@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="La technologie en global">
+    <meta name="author" content="Samba Ndiaye">
+
+    
+
+    <title id="WEBSIT_NAME">
+   ok
+
+  </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/customer.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://localhost/database/libs/font-awesome-4.7.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <link rel="stylesheet" type="text/css" href="libs/alertifyjs/css/alertify.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/alertifyjs/css/themes/bootstrap.min.css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+    <link href="favicon.ico" rel="icon" type="image/jpg" style="border-radius: 0.5em;" />
+  </head>
+
+  <body style="background-image:url(2.png);
+              background-repeat: no-repeat;
+              background-attachment: fixed;" class="login">
+    
+
+<div  class="container">
+  <p style="text-align: center; color: #004d99 !important;">Créer mon CV  </h1><br></p>
+  <hr>
+<div class="col-sm-11 col-sm-offset-0">
+              
+                <div  style="border: solid 1px #004d99;"  class="panel panel-default">
+                <div  style="border: solid 1px #004d99 ;"  class="panel-heading ">
+                 <h5 style="text-align: center;"><a style="float: left; color: white; font-size: 15px;" href="index.php"><i class="fa fa-arrow-left" aria-hidden="true"></i> Retour</a> Ajouter un Cv ici <i class="fa fa-plus-circle" aria-hidden="true"></i><br></h5>
+               </div>
+                <hr>
+                 <div id="main-content">
+
+      <div class="container">
+
+        <div class="row">
+       
+          <div class="col-sm-7 col-sm-offset-2">
+              <div class="panel panel-default">
+               <div class="panel-heading">
+                <h3 style="text-align:center;" class="panel-title"><b>Formulaire</b></h3>
+            
+              </div>
+            <div class="panel-body">
+      
+                <!--nom prenom-->
+           <form action="{$url_base}Welcome/insert" data-parsley-validate method="post" enctype="multipart/form-data">
+             <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="nom" >Nom Prénom<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Nom Prenom" name="nom" id="nom" class="form-control" value="" required="required">
+                </div>
+                
+              </div>
+                <!--age-->
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="age" >Age<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Age" name="age" id="age" class="form-control" value="" required="required">
+                </div>
+                
+              </div>
+
+
+                  <!--adresse-->
+             
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="adresse" >Adresse<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Adresse" name="adresse" id="adresse" value="" class="form-control" required="required">
+                </div>
+                
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="specialite" >Specialite<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Specialite" name="specialite" id="specialite" value="" class="form-control" required="required">
+                </div>
+                
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="niveau" >Niveau d’etude<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Niveau d’etude" name="niveau" id="niveau" value="" class="form-control" required="required">
+                </div>
+                
+              </div>
+
+              <div class="col-sm-10">
+                <div class="form-group">
+                  <label class="control-label" for="experience" >Experience professionnelle<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Experience professionnelle" name="experience" id="experience" value="" class="form-control" required="required">
+                </div>
+                
+              </div>
+
+
+              <!--sex-->
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="sex" >Sex<span class="text-danger">*</span></label>
+                  <select name="sex" id="sex" class="form-control" required="required">
+                    <option>
+                      Homme
+                    </option>
+                    <option>
+                      Femme
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <!--Numero-->
+             <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="control-label" for="numero" >Numéro<span class="text-danger">*</span></label>
+                    <input type="text" placeholder="Numero" name="numero" id="numero" value="" class="form-control"  required="required">
+                  </div>
+                  
+                </div>
+               
+             </div>
+
+             <div class="col-sm-6">
+                <div class="form-group">
+                  <label class="control-label" for="email" >Email<span class="text-danger">*</span></label>
+                  <input type="email"  name="email" id="email" class="form-control" value="" placeholder="email">
+                </div>
+                
+              </div>
+              
+            </div>
+
+            
+            <div class="row">
+               <div class="col-md-12">
+                 <div class="form-group">
+                   <label for="avatar">Photo</label>
+                   <input type="file" name="avatar" id="avatar" required="required">
+                 </div>
+               </div>
+             </div>
+  
+            
+             
+            
+
+               
+              
+               
+             
+
+
+               
+
+              
+             
+             
+               
+               
+             </div>
+        
+             
+             <input style="background-color: #004d99; border : #004d99;" type="submit" class="btn btn-primary" value="valider" name="registeruser">
+              <input style="background-color: #004d99; border : #004d99; float: right;" type="reset" class="btn btn-primary" value="actualiser">
+           </form> 
+
+          </div>
+          
+        </div>
+            
+          </div>
+      
+
+        </div>
+      
+     </div><!-- /.container -->
+
+       
+   </div>
+         </div>
+          </div>
+
+        </div>
+
+
+  <div class="bcg" class="container">
+        
+        
+        </div>  
+<script src="libs/parsley.min.js"></script>
+</body>
+</html>
+

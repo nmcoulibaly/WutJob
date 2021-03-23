@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2021-03-19 01:05:50
+/* Smarty version 3.1.30, created on 2021-03-23 21:58:35
   from "C:\xampp2\htdocs\php\WutJob\WutJob\src\view\welcome\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6053eade0e06d9_55083032',
+  'unifunc' => 'content_605a567b0c4291_12690582',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c9f8960491609f0adaf0dcc6b5e2a0534eb4d43' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\php\\WutJob\\WutJob\\src\\view\\welcome\\index.html',
-      1 => 1616112318,
+      1 => 1616533002,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6053eade0e06d9_55083032 (Smarty_Internal_Template $_smarty_tpl) {
+function content_605a567b0c4291_12690582 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -71,15 +71,15 @@ welcome/index"><h1>WutJob</h1></a>
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-welcome/index" class="active">Accueil</a></li>
+welcome/index">Accueil</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/about.html">Offres</a></li>
+welcome/offres">Offres</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/services.html">Presentation</a></li>
+welcome/presentation">Presentation</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/gallery.html">CV</a></li>
+cv/cv">CV</a></li>
               <li role="presentation"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/contact.html">Se Connecter</a></li>
+welcome/Login" class="active">Se Connecter</a></li>
             </ul>
           </div>
         </div>
@@ -203,98 +203,28 @@ public/Day/img/slide.jpg" class="img-responsive" alt="">
         <h3>Communications Manager</h3>
         <p>Construire et entretenir des relations interpersonnelles et d'équipe pour assurer
            un environnement de travail stable et l'atteinte des objectifs de l'équipe</p>
+           <button type="button" class="btn btn-primary">Postuler</button>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
         <i class="fa fa-trophy"></i>
-        <h3>Head of finance </h3>
+        <h3>Designer UX/UI </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+        <button type="button" class="btn btn-primary">Postuler</button>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
         <i class="fa fa-trophy"></i>
         <h3>Administrateur Bases de donnees</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+         <button type="button" class="btn btn-primary">Postuler</button>
       </div>
       <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
         <i class="fa fa-trophy"></i>
         <h3>Architecte de donnees</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+         <button type="button" class="btn btn-primary">Postuler</button>    
       </div>
     </div>
   </div>
-
-
-  <div class="gallery">
-    <div class="text-center">
-      <h2>actualités</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod voluptate consequuntur ad quasi, dolores obcaecati ex aliquid, dolor provident </p>
-    </div>
-    <div class="container">
-      <div class="col-md-4">
-        <figure class="effect-marley">
-          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/img/8.jpg" alt="" class="img-responsive" />
-          <figcaption>
-            <h4>Comment recruter à distance</h4>
-            <p>Marley tried to convince her but she was not interested.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4">
-        <figure class="effect-marley">
-          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/img/9.jpg" alt="" class="img-responsive" />
-          <figcaption>
-            <h4>Reussir son entretien à distance </h4>
-            <p>Marley tried to convince her but she was not interested.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4">
-        <figure class="effect-marley">
-          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/img/10.jpg" alt="" class="img-responsive" />
-          <figcaption>
-            <h4>Accueillir de nouveaux employes à distance</h4>
-            <p>Marley tried to convince her but she was not interested.</p>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="col-md-4">
-        <figure class="effect-marley">
-          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/img/11.jpg" alt="" class="img-responsive" />
-          <figcaption>
-            <h4>Vous cherchez un poste temporaire,contractuel ou interimaire? </h4>
-            <p>Marley tried to convince her but she was not interested.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4">
-        <figure class="effect-marley">
-          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/img/12.jpg" alt="" class="img-responsive" />
-          <figcaption>
-            <h4>Vous recrutez? WutJob vous accompagne</h4>
-            <p>Marley tried to convince her but she was not interested.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4">
-        <figure class="effect-marley">
-          <img src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
-public/Day/img/13.jpg" alt="" class="img-responsive" />
-          <figcaption>
-            <h4>Services de recrutement</h4>
-            <p>Marley tried to convince her but she was not interested.</p>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-
   <footer>
     <div class="container">
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
