@@ -15,7 +15,9 @@ class CvController extends Controller
 public function insert()
             {
                 extract($_POST);
+            
                 $cv = new Cv();
+                var_dump($cv);
                 $cv->setNom($nom);
                 $cv->setAge($age);
                 $cv->setAdresse($adresse);
